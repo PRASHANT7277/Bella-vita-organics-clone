@@ -1,6 +1,6 @@
-import {Box,Text,Heading,Input,Button,Image} from "@chakra-ui/react"
+import {Box,Heading,Input,Button,Image} from "@chakra-ui/react"
 import { PhoneIcon,EmailIcon,ChatIcon} from '@chakra-ui/icons'
-
+import Fimage from './images/a.png'
 
 
 export default function Footer(){
@@ -11,11 +11,11 @@ export default function Footer(){
     <Box className="fdiv">
     <Heading as='h4' size='sm' fontWeight=''>ONLINE PRESENCE</Heading>
     <Box w='36%' ml='25%' mt='2'><hr/></Box>
-         <h5>Amazon</h5>
-        <h5>Nykaa</h5>
-        <h5>Flipkart</h5>
-        <h5>TataCliq</h5>
-        <h5>Snapdeal</h5>
+         <h5><a href='https://www.amazon.in/stores/page/B662F65E-796B-418E-A4E3-2FCAE5E3C668?ingress=3&visitId=1fb8c360-930b-4af1-b458-4dc5c999c29c'>Amazon</a></h5>
+        <h5><a href="https://www.nykaa.com/search/result/?q=bella+vita+organic">Nykaa</a></h5>
+        <h5><a href="https://bit.ly/2l5vklJ">Flipkart</a></h5>
+        <h5><a href="https://www.tatacliq.com/search/?searchCategory=all&text=Bella%20Vita%20Organic">TataCliq</a></h5>
+        <h5><a href="https://www.snapdeal.com/brand/bella-vita-organic/?sort=plrty"> Snapdeal</a></h5>
         
     </Box>
     <Box className="fdiv">
@@ -64,7 +64,7 @@ export default function Footer(){
         <Button colorScheme="green" pl='8' pr='8' mt='5' ml='5'>SUBMIT</Button>
     </Box>
 </Box>
-<Box><Image src='./images/1.png' alt='image'/></Box>
+<Box><Image src={Fimage} alt='image'/></Box>
     </Box>
 )
 }
