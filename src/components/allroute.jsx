@@ -1,12 +1,14 @@
 import { Routes, Route } from "react-router-dom"
 import Signup     from "./signup";
- function AllRoutes() {
+import Login from "./login";
+import Homepage from "./homepage";
+ export default function AllRoutes() {
     return (
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/signup" element={<Signup />}  />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login />}  />
+       
         
       </Routes>
     );
