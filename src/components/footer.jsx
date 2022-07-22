@@ -1,6 +1,6 @@
 import {Box,Heading,Input,Button,Image} from "@chakra-ui/react"
 import { PhoneIcon,EmailIcon,ChatIcon} from '@chakra-ui/icons'
-import Fimage from './images/a.png'
+import Aimage from './images/a.png'
 
 
 export default function Footer(){
@@ -64,7 +64,7 @@ export default function Footer(){
         <Button colorScheme="green" pl='8' pr='8' mt='5' ml='5'>SUBMIT</Button>
     </Box>
 </Box>
-<Box><Image src={Fimage} alt='image'/></Box>
+<Box><Image src={Aimage} alt='image'/></Box>
     </Box>
 )
 }
