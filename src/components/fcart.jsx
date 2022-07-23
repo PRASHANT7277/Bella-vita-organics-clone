@@ -1,12 +1,14 @@
-import { Image,Box,Text } from "@chakra-ui/react"
-import { Link } from "react-router-dom"
-import { Button } from "@chakra-ui/react"
+import Navbar from "./navbar";
+import Footer from "./footer";
+import { Box,Text,Image,Button } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import Count from "./count";
-import { DeleteIcon } from '@chakra-ui/icons'
 import axios from "axios"
 import { useState } from "react";
-export default function Cart(){
-  const [data,setData]=useState([])
+import { DeleteIcon } from '@chakra-ui/icons'
+
+export default function Fcart(){
+    const [data,setData]=useState([])
   axios.get("https://prashant-json-server.herokuapp.com/procart")
   .then((res) => {
     setData(res.data);
@@ -16,19 +18,13 @@ export default function Cart(){
     console.log(err);
    
   });
-    return(
-        <><button style={{ backgroundColor: 'white',border:'none',}} class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><Image id='b8' src='https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-shopping-bag-icon-png-image_927105.jpg' alt='img' /></button>
-
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div class="offcanvas-header">
-           
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            
-            <Box mt="10px"  w="100%" margin="auto">
-            <Box mt="10px" display='flex' justifyContent='space-between'>
-                <Box><Text fontweight="semibold" fontSize="40px"><Link to='/cart'>Your cart</Link></Text></Box>
+     
+    return (
+        <>
+        <Navbar/>
+        <Box mt="100px"  w="80%" margin="auto">
+            <Box mt="100px" display='flex' justifyContent='space-between'>
+                <Box><Text fontweight="semibold" fontSize="40px">Your cart</Text></Box>
                 <Box mt='20px'><Text textDecor='underline'><Link to="/products">Continue Shopping</Link></Text></Box>
             </Box>
             <Box display='flex' justifyContent='space-between' mt='20px'>
@@ -52,12 +48,12 @@ export default function Cart(){
 
             )}
             <Box><hr/></Box>
-            
+            <Box mt='70px' color='mineralgreen' ><Text fontWeight='semibold' fontSize='15px' textAlign='right'>Subtotal ₹{"229"}</Text></Box>
+            <Box><Text textAlign='right' color='mineralgreen' textDecoration='underline' > <a href='https://bellavitaorganic.com/policies/shipping-policy'>Tax included.shipping calculated at checkout.</a></Text></Box>
             <Box mb='50px' color='white' textAlign='right' mt='30px' ><Button  bgColor='#475d4b' pt='25px' pb='25px' pl='150px' pr='150px' fontWeight='bold'>Check out</Button></Box>
         </Box>
 
-          </div>
-        </div>
+        <Footer />
         </>
     )
 }

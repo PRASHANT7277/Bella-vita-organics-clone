@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 
 const links = [
   {
-    to: "/",
+    to: "/products",
     title: "SHOP ALL"
   },
   {
-    to: "/",
+    to: "/products",
     title: "NEW ARRIVALS"
   },
   {
-    to: "/",
+    to: "/products",
     title: "BESTSELLERS"
   },
   {
-    to: "/",
+    to: "/products",
     title: "SKIN CARE"
   },
   {

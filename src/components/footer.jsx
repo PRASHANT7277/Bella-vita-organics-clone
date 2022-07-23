@@ -21,22 +21,22 @@ export default function Footer(){
     <Box className="fdiv">
         <Heading as='h4' size='sm' fontWeight=''>INFORMATION</Heading>
         <Box w='28%' ml='32%' mt='2'><hr/></Box>
-        <h5>Blog</h5>
-        <h5>Newsroom</h5>
-        <h5>Terms and Conditons</h5>
-        <h5>Privacy Policy</h5>
-        <h5>Refund and Return</h5>
-        <h5>Shipping Policies</h5>
+        <h5><a href='https://bellavitaorganic.com/blogs/bellavita-blogs'>Blog</a></h5>
+        <h5><a href='https://bellavitaorganic.com/blogs/news-media'>Newsroom</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/terms-and-conditions'>Terms and Conditons</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/privacy-policy'>Privacy Policy</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/refund-and-return'>Refund and Return</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/shipping-policy'>Shipping Policies</a></h5>
     </Box>
     <Box className="fdiv">
     <Heading as='h4' size='sm' fontWeight=''>SUPPORT</Heading>
     <Box w='20%' ml='38%' mt='2'><hr/></Box>
         
-        <h5>About Us</h5>
-        <h5>Contact Us</h5>
-        <h5>Order Tracking</h5>
-        <h5>All Products</h5>
-        <h5>FAQ</h5>
+        <h5><a href='https://bellavitaorganic.com/pages/philosophy'>About Us</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/contact-us'>Contact Us</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/order-tracking'>Order Tracking</a></h5>
+        <h5><a href='https://bellavitaorganic.com/collections/natural-ayurvedic-beauty-care-products'>All Products</a></h5>
+        <h5><a href='https://bellavitaorganic.com/pages/frequently-asked-questions'>FAQ</a></h5>
 
     </Box>
     <Box className="fdiv">
