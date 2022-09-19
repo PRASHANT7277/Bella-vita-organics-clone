@@ -1,4 +1,4 @@
-# Tanner Goods clone
+# Bella Vita clone
 
 Hello everyone I cloned a Bella vita organics website by using React,HTML,CSS,JS,JSON,Chakra UI.
 
