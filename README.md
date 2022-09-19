@@ -15,7 +15,7 @@
 - Payment page with total amount.
 ## Homepage
 
-![App Screenshot](https://i.postimg.cc/NjMXRWv4/tbellavita-1.png)
+![App Screenshot]((https://i.postimg.cc/NjMXRWv4/tbellavita-1.png)
 
 ## Product page
 
