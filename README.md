@@ -13,17 +13,7 @@
 - Cart page with adding and removing items.
 - Product page with sorting feature.
 - Payment page with total amount.
-## Homepage
 
-![App Screenshot]((https://i.postimg.cc/NjMXRWv4/tbellavita-1.png)
-
-## Product page
-
-![App Screenshot](https://i.postimg.cc/pdvtwtVQ/Screenshot-331.png)
-
-## Cart page
-
-![App Screenshot](https://i.postimg.cc/xj5VBS3P/Screenshot-330.png)
 
 
 ## Deployment
