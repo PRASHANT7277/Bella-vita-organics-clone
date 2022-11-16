@@ -8,7 +8,7 @@
 
 ## Features
 
-- Homepage with carousel feature.
+- Homepage with carousel features.
 - Signup & login page with find features.
 - Cart page with adding and removing items.
 - Product page with sorting feature.
