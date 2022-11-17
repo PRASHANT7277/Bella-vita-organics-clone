@@ -10,7 +10,7 @@
 
 - Homepage with carousel features.
 - Signup & login page with find features.
-- Cart page with adding and removing items.
+- Cart page with adding and removing individual items.
 - Product page with sorting feature.
 - Payment page with total amount.
 
