@@ -31,5 +31,5 @@ To deploy this project run
 
 ## Support
 
-If you have any feedback,please reach out to me at kumar.prashant477@gmail.com
+If you have any feedback, please reach out to me at kumar.prashant477@gmail.com
 
