@@ -2,7 +2,7 @@
 # Bella Vita Clone
 
  This is a clone of E-commerce website where we offers Ayurvedic
- & Natural Beauty Care Products made from 100% Natural 
+ & Natural Beauty Care Products made from  100% Natural 
  Ingredients built individually.
 
 
